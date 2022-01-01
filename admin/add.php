@@ -1,4 +1,5 @@
 <?php
+    session_start();
     if (isset($_SESSION['admin'])) {
         $link = mysqli_connect('localhost', 'worlgmig_newyear', '100%newyear', 'worlgmig_Christmas');
 
