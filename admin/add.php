@@ -22,7 +22,7 @@
 
 ?>
 
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -43,7 +43,7 @@
           <h1 class="h3 mb-3 fw-normal">Add Credit</h1>
       
           <div class="form-floating mb-3">
-            <select name="network" id="" class="form-control">
+            <select name="network" id="" class="form-control-sm">
                 <option value="mtn">MTN</option>
                 <option value="airtel">Airtel</option>
                 <option value="glo">Glo</option>
@@ -51,7 +51,7 @@
             </select>
           </div>
           <div class="form-floating mb-3">
-            <input type="text" name="value" class="form-control" id="floatingPassword" placeholder="Credit">
+            <input type="text" name="value" class="form-control-sm" id="floatingPassword" placeholder="Credit">
             <label for="floatingPassword">Credit</label>
           </div>
       
